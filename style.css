@@ -8,17 +8,19 @@
     /* border:  gray solid 1px; */
 }
 
+
 .nav {
     display: flex;
     justify-content: space-around;
     align-content: center;
     margin-top: 1.5em;
+    margin-bottom: 1.3em;
 }
 
 .nav-menu li {
     display: inline-block;
     margin-left: 50px;
-    margin-top: 8px;
+    margin-top: 16px;
 }
 
 .active {
@@ -29,22 +31,102 @@
     vertical-align:middle;   
 }
 
-button {
+.getstartedbtnone {
     height: 35px;
     background-color: #BEE1E6;
     padding: 11px 14px;
     border: none;
     border-radius: 9px;
-    font-weight:700
+    font-weight:700;    
+    margin-top: 7px;
 }
 
 
-.getstartedbtn {
+.arrowimg {
     vertical-align:middle;
-    margin-top: -2px;
+    margin-top: -2.1px;
 }
 
 .nav-menu-icon {
     width: 26px;
-    margin-top: 3px;    
+    margin-top: 6px;    
+}
+
+.nav-logo img {
+    width: 140%;
+    height: auto;
+}
+
+
+.semihero-two {
+    height: 100vh;
+    background-color: #BEE1E6
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    position: relative;
+    top: 50%;
+     transform: translateY(-50%);
+}
+
+.titleborder {
+    border: none;
+    background-color: #006D77;
+    padding: 9px 13px;
+    width: 35%;
+    color: white;
+    border-radius: 15px;
+}
+
+.hero-content-txt h1 {
+    margin-top: 0.5em;
+    font-size: 3.5em;
+}
+
+.hero-content-pargraph {
+    margin-top: 2.5em;
+    color: rgb(94, 94, 94);
+    line-height: 30px; 
+    margin-bottom: 2.5em;  
+}
+
+.getstartedbtntwo {
+    height: 60px;
+    color: white;
+    background-color: black;
+    padding: 11px 31px;
+    border: none;
+    border-radius: 9px;
+    font-weight:700;    
+    margin-top: 7px;
+}
+
+.howitworksbtn {
+    height: 60px;
+    color: black;
+    background-color: transparent;
+    padding: 11px 31px;
+    border: #5FA7AE solid 1.5px;
+    border-radius: 9px;
+    font-weight:700;    
+    margin-top: 7px;
+    margin-left: 54px;   
+}
+
+.hero-content-img {
+    width: 430px;
+    height: 430px;
+    margin-right: 2%;
+}
+
+
+.hero-content {
+padding: 50px;
+}
+/* by mistake but nice result haha /*
+.hero {
+padding: 50px;
 }
