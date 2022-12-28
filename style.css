@@ -126,7 +126,11 @@
 .hero-content {
 padding: 50px;
 }
-/* by mistake but nice result haha /*
-.hero {
-padding: 50px;
+
+.hero-content-txt {
+margin-bottom: 20%;
 }
+ /* by mistake but nice result haha  */
+/* .hero {
+padding: 50px;
+}  */
