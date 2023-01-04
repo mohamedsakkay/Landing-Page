@@ -14,14 +14,15 @@
     justify-content: space-around;
     align-content: center;
     margin-top: 1.5em;
-    margin-bottom: 1.3em;
     margin-left: 11px;
 }
 
 .nav-menu li {
     display: inline-block;
-    margin-left: 50px;
-    margin-top: 16px;
+    margin-left: 44px;
+    font-weight: bolder;
+    margin-top: 25px;
+    font-size: 15px;
 }
 
 .active {
@@ -41,7 +42,7 @@
     border: none;
     border-radius: 9px;
     font-weight:700;    
-    margin-top: 7px;
+    margin-top: 14px;
     margin-left: 115px;
     box-shadow: 0px 5px 6px 0px rgb(230, 228, 228);
 }
@@ -51,20 +52,20 @@
 
 
 .nav-menu-icon {
-    width: 26px;
-    margin-top: 6px;
+    width: 24px;
+    margin-top: 11px;
     margin-left: -41px;
 }    
 
 
 .nav-logo img {
-    width: 256px;
+    width: 300px;
     height: auto;
 }
 
 
 .semihero-two {
-    height: 88vh;
+    height: 78vh;
     background-color: #E1F3FF
 }
 
@@ -73,15 +74,15 @@
     justify-content: space-around;
     align-content: center;
     position: relative;
-    top: 50%;
+    top: 55%;
      transform: translateY(-50%);
 }
 
 .titleborder {
     border: none;
     background-color: #6996da;
-    padding: 6px 14px;
-    width: 23%;
+    padding: 7px 16px;
+    width: 24%;
     color: white;
     border-radius: 15px;
 }
@@ -125,13 +126,13 @@
 
 .hero-content-img {
     width: 430px;
-    height: 430px;
+    height: 434px;
     margin-right: 2%;
 }
 
 
 .hero-content {
-padding: 50px;
+padding: 110px;
 }
 
 .hero-content-txt {
@@ -163,7 +164,8 @@ padding: 50px;
 }
 
 .postSpan {
-    margin-left: 40px;
+    text-align: justify;
+    margin-left: 49px;
     margin-top: 2px;
 }
 
@@ -171,8 +173,9 @@ padding: 50px;
     font-weight: bolder;
 }
 
-.span-name {
+.span-nameOne {
 margin-left: 10px;
+font-weight: bold;
 }
 
 .postSpan {
@@ -180,7 +183,9 @@ margin-left: 10px;
     font-size: 15px;
 }
 
-.p-pageTwo {
+
+.p1-pageTwo {
+    text-align: justify;
     color: #7F7F7F;
     font-size: 17px;
 }
@@ -194,4 +199,70 @@ margin-left: 10px;
     font-weight: bolder;
 }
 
-    
+.p2-pageTwo {
+    color: #7F7F7F;
+    font-size: 17px;
+}
+
+.pageThree {
+    display: flex;
+    text-align: justify;
+    padding: 7%;
+    gap: 7%;
+    margin-left: 6%;
+    margin-top: -8.5%;
+}
+
+.p1-pageThree {
+    color: #7F7F7F;
+    font-size: 16px;
+    margin-left: 60px;
+    width: 295px;
+}
+
+
+.span-nameTwo {
+margin-left: 6%;
+font-weight: bolder
+}
+
+.preFooter {
+    display: flex;
+    justify-content: center;
+    gap: 7%;
+    margin-right: 5%;
+    margin-top: -1%;
+}
+
+.p2-pageThree {
+    color: #7F7F7F;
+    font-size: 12px;
+    text-align: justify;
+    margin-top: 14px;
+    width: 253px;
+}
+
+.span-nameThree {
+    font-weight: bold;
+}
+
+.list {
+    font-weight: bold;
+    line-height: 30px;
+    color: #7F7F7F;
+    font-size: 14px;
+    padding: 0px;
+    margin-top: 10px;    
+}
+
+.footer {
+    background-color: #6996da;
+    height: 12vh;
+    margin: 0px;
+    margin-top: 3%;
+}
+.p-footer {
+    padding: 48px 0px 0px 0px;
+    text-align: center;
+    color: white;
+}
